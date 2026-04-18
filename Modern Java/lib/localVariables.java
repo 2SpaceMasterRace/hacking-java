@@ -37,11 +37,11 @@ void challengeThree() {
     IO.println("b = a");
     IO.println(b);
 
-    a = b; // a: B
+    a = b; // a: A
     IO.println("a = b");
     IO.println(a);
 
-    b = a; // b: B
+    b = a; // b: A
     IO.println("b = a");
     IO.println(b);
 
@@ -63,9 +63,9 @@ void challengeFour(){
     // Don't touch above this
 
     // You can add code here
-    var c = a; // c = A
-    a = b; // a = B
-    b = c; // b = A
+    String temp = a; // temp <- A
+    a = b; // a <- B
+    b = temp; // b <-A
 
     // Don't touch below this
     IO.println(a);
